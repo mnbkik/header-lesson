@@ -1,0 +1,74 @@
+@use "../global" as *;
+
+.l-header {
+    padding-top: 20px;
+    height: 100px;
+}
+
+.l-header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1160px;
+    width: 100%;
+    padding: 0 50px;
+    margin-inline: auto;
+}
+
+.l-header__logo {}
+
+.l-header__logo img {
+    max-width: 178px;
+    width: 100%;
+}
+
+.l-header__nav {}
+
+.l-header__buttons {
+    display: grid;
+    grid-template-columns: repeat(3, fit-content(100%));
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.l-header__link ,
+.l-header__list a {
+    color: var(--black);
+}
+
+.l-header__link--instagram {}
+
+.l-header__link--instagram img {
+    max-width: 30px;
+    width: 100%;
+}
+
+.l-header__link--mail {}
+
+.l-header__link--mail img {
+    max-width: 40px;
+    width: 100%;
+}
+
+.l-header__lists {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.l-header__list {
+
+    &:not(:last-child) {
+        margin-right: 30.72px;
+    }
+
+    &:first-child {
+        margin-right: 37px;
+    }
+}
+
+.l-header__list a img {
+    max-width: 28.68px;
+}

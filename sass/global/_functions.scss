@@ -1,0 +1,10 @@
+@function rem($px) {
+  @return ($px / 16) * 1rem;
+}
+
+:root {
+  --black:#1a1a1a;
+  --white:#fcfcfc;
+  --gray:#f4f4f4;
+  --red:#f45f5f;
+}
